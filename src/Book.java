@@ -72,7 +72,7 @@ public class Book {
         bookCollection.remove(book);
     }
 
-    public static void sort(ArrayList<Book> books){
+    public static void sortByName(ArrayList<Book> books){
 
         books.sort((o2, o1)
     -> o1.getTitle().compareToIgnoreCase(o2.getTitle()));
